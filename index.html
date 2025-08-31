@@ -80,11 +80,21 @@
         <section id="waitlist" class="waitlist">
             <h2>O futuro está sendo construído.</h2>
             <p>Seja um dos primeiros a explorar a Espaço. Inscreva-se para receber acesso antecipado e notícias exclusivas.</p>
-            <form id="waitlist-form">
-                <input type="email" placeholder="Seu melhor e-mail" required>
-                <button type="submit" class="cta-button">Quero fazer parte!</button>
-            </form>
-             <p id="form-message"></p>
+           <form
+  action="https://formspree.io/f/mnnbvvev"
+  method="POST"
+>
+  <label>
+    Your email:
+    <input type="email" name="email">
+  </label>
+  <label>
+    Your message:
+    <textarea name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
         </section>
     </main>
 
@@ -96,3 +106,4 @@
 </body>
 
 </html>
+
